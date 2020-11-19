@@ -10,7 +10,7 @@
 			UTF-8
 		</project.build.sourceEncoding>
 		<textimager.version>
-			a8e0830d3c498bd5ef981079d58965f740053b4d
+			0.3.0.1
 		</textimager.version>
 		<dkpro.version>
 			2.1.0
@@ -24,23 +24,33 @@
 	</repositories>
 	<dependencies>
 		<dependency>
-			<groupId>com.github.Myyyvothrr.textimager-uima</groupId>
+			<groupId>com.github.texttechnologylab.textimager-uima</groupId>
 			<artifactId>textimager-uima-types</artifactId>
 			<version>${textimager.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.github.Myyyvothrr.textimager-uima</groupId>
+			<groupId>com.github.texttechnologylab.textimager-uima</groupId>
+			<artifactId>textimager-uima-types</artifactId>
+			<version>${textimager.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.texttechnologylab.textimager-uima</groupId>
 			<artifactId>textimager-uima-io</artifactId>
 			<version>${textimager.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.github.Myyyvothrr.textimager-uima</groupId>
+			<groupId>com.github.texttechnologylab.textimager-uima</groupId>
 			<artifactId>textimager-uima-spacy</artifactId>
 			<version>${textimager.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.github.Myyyvothrr.textimager-uima</groupId>
+			<groupId>com.github.texttechnologylab.textimager-uima</groupId>
 			<artifactId>textimager-uima-textblob</artifactId>
+			<version>${textimager.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.texttechnologylab.textimager-uima</groupId>
+			<artifactId>textimager-uima-heideltime</artifactId>
 			<version>${textimager.version}</version>
 		</dependency>
 		<dependency>
@@ -48,13 +58,6 @@
 			<artifactId>dkpro-core-corenlp-gpl</artifactId>
 			<version>${dkpro.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>org.hucompute.textimager.uima</groupId>
-			<artifactId>textimager-uima-heideltime</artifactId>
-			<version>0.2.6</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.json/json -->
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
